@@ -1,0 +1,71 @@
+name: 🚀 Feature Request - PythonOS
+description: Suggerisci una nuova funzionalità per PythonOS
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver proposto un'idea per PythonOS! 🐍💻
+        Descrivi la tua idea nel modo più chiaro possibile.
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: 💡 Descrizione della funzionalità
+      description: Spiega cosa vorresti aggiungere a PythonOS
+      placeholder: "Vorrei che PythonOS potesse..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: ❓ Problema che risolve
+      description: Che problema risolve questa feature?
+      placeholder: "Questa funzionalità aiuterebbe perché..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 🛠️ Soluzione proposta
+      description: Come immagini che dovrebbe funzionare?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternative considerate
+      description: Hai pensato ad altre soluzioni?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 📎 Contesto aggiuntivo
+      description: Screenshot, idee, esempi o link utili
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 🎯 Priorità stimata
+      options:
+        - Bassa
+        - Media
+        - Alta
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Conferma
+      options:
+        - label: Questa idea non è già stata proposta in passato
+          required: true
