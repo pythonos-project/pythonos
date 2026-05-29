@@ -56,7 +56,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-## Esecuzione
+4. Eseguiscilo
 
 ```bash
 python main.py
