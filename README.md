@@ -16,20 +16,21 @@ PythonOS è un mini-sistema operativo sviluppato in Python con interfaccia grafi
 - Python 3.8+
 - tkinter (incluso con la maggior parte delle distribuzioni Python)
 
-## Installazione
+## Installazione ed Esecuzione
 
 1. Clona il repository:
 
 ```bash
 https://github.com/pythonos-project/pythonos.git
 ```
-1. Crea un ambiente virtuale:
+
+2. Crea un ambiente virtuale:
 
 ```bash
 python -m venv venv
 ```
 
-2. Attiva l'ambiente:
+3. Attiva l'ambiente:
 
 <details>
   <summary>Windows</summary>
@@ -55,13 +56,13 @@ python -m venv venv
 
   </details>
 
-3. Installa le dipendenze:
+4. Installa le dipendenze:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Eseguiscilo
+5. Eseguiscilo
 
 ```bash
 python main.py
