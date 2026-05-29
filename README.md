@@ -45,7 +45,7 @@ python -m venv venv
   <summary>MacOS/Linux</summary>
     
   ```bash
-  venv\bin\activate
+  source venv\bin\activate
   ```
 
   </details>
