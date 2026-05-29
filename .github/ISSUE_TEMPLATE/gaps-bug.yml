@@ -1,0 +1,97 @@
+name: ⚙️ Gaps - Bug Report
+description: Segnala un problema tecnico nelle Gaps di PythonOS
+title: "[GAPS BUG] "
+labels: ["bug", "gaps"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚙️ Grazie per aver segnalato un problema nelle Gaps di PythonOS!
+        Le Gaps sono componenti tecniche, quindi più dettagli fornisci, più sarà facile risolvere il problema.
+
+  - type: textarea
+    id: gaps_name
+    attributes:
+      label: 🧩 Nome della Gaps
+      description: Quale Gaps è coinvolta?
+      placeholder: "es. FileSystemGaps, NetworkGaps, RenderGaps..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🐞 Descrizione del problema
+      description: Cosa non funziona?
+      placeholder: "Descrivi il bug in modo tecnico e chiaro..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 🔁 Come riprodurre il bug
+      description: Passi per far accadere il problema
+      placeholder: |
+        1. Avvio Gaps
+        2. Eseguo funzione X
+        3. Crash / errore
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento atteso
+      description: Cosa dovrebbe succedere?
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamento attuale
+      description: Cosa succede davvero?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📄 Log / Errori
+      description: Incolla qui errori, stack trace o output
+      render: shell
+
+  - type: input
+    id: gaps_version
+    attributes:
+      label: 🔧 Versione Gaps
+      placeholder: "es. Gaps 0.3.2"
+
+  - type: input
+    id: pythonos_version
+    attributes:
+      label: 💿 Versione PythonOS
+      placeholder: "es. 0.1.0 alpha"
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Gravità del problema
+      options:
+        - Bassa (non critico)
+        - Media (funzione limitata)
+        - Alta (crash o blocco sistema)
+        - Critica (sistema inutilizzabile)
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 📎 Contesto aggiuntivo
+      description: Screenshot, codice o informazioni extra
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Conferma
+      options:
+        - label: Ho verificato che il problema non sia già stato segnalato
+          required: true
