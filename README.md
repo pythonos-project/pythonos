@@ -27,7 +27,7 @@ python -m venv venv
 2. Attiva l'ambiente:
 
 <details>
-  <sumamry>Windows</sumamry>
+  <summary>Windows</summary>
 
   In **Powershell**
   ```powershell
@@ -39,16 +39,16 @@ python -m venv venv
   venv\Scripts\activate
   ```
 
-  <details>
+  </details>
 
   <details>
-  <sumamry>MacOS/Linux</sumamry>
+  <summary>MacOS/Linux</summary>
     
   ```bash
   venv\bin\activate
   ```
 
-  <details>
+  </details>
 
 3. Installa le dipendenze:
 
