@@ -15,6 +15,7 @@ PythonOS è un mini-sistema operativo sviluppato in Python con interfaccia grafi
 
 - Python 3.8+
 - tkinter (incluso con la maggior parte delle distribuzioni Python)
+- pyos-gaps (Si installa automaticamente installando le dispendenze con `pip install -r requirements.txt`)
 
 ## Installazione ed Esecuzione
 
