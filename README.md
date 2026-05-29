@@ -18,6 +18,11 @@ PythonOS è un mini-sistema operativo sviluppato in Python con interfaccia grafi
 
 ## Installazione
 
+1. Clona il repository:
+
+```bash
+https://github.com/pythonos-project/pythonos.git
+```
 1. Crea un ambiente virtuale:
 
 ```bash
