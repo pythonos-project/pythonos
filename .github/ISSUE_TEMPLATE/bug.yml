@@ -1,0 +1,86 @@
+name: 🐞 Bug / Crash Report - PythonOS
+description: Segnala un bug o un crash in PythonOS
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver segnalato un problema in PythonOS! 🐍💻
+        Compila tutte le sezioni per aiutarci a risolvere il bug più velocemente.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📌 Descrizione del problema
+      description: Spiega cosa succede
+      placeholder: "Descrivi il bug in modo chiaro..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Passi per riprodurre il bug
+      description: Come possiamo riprodurre il problema?
+      placeholder: |
+        1. Avvio PythonOS
+        2. Apro il terminale
+        3. Scrivo ...
+        4. Crash
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento previsto
+      description: Cosa dovrebbe succedere normalmente?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamento attuale
+      description: Cosa succede invece?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📄 Log / Errori
+      description: Incolla qui eventuali errori o output del terminale
+      render: shell
+
+  - type: input
+    id: python_version
+    attributes:
+      label: 🐍 Versione Python
+      placeholder: "es. Python 3.11.5"
+
+  - type: input
+    id: pythonos_version
+    attributes:
+      label: 💿 Versione PythonOS
+      placeholder: "es. 0.1.0 alpha"
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Gravità
+      options:
+        - Bassa (problema estetico o minore)
+        - Media (funzione non funziona bene)
+        - Alta (crash o blocco sistema)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📜 Conferma
+      options:
+        - label: Ho cercato bug simili prima di aprire questa issue
+          required: true
