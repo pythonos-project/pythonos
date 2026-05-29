@@ -1,0 +1,8 @@
+# Dipendenze principali
+
+# 1. Tkinter: per l'interfaccia grafica.
+# Tkinter è incluso con Python standard su molte piattaforme.
+# Se il tuo Python non lo include, installa il pacchetto appropriato per la tua distribuzione.
+
+# 2. pyos-gaps: per funzioni di sistema
+pyos-gaps >= 1.0.4
