@@ -11,6 +11,15 @@ PythonOS è un mini-sistema operativo sviluppato in Python con interfaccia grafi
 
 ---
 
+## Tabella dei Contenuti
+
+- [Caratteristiche](#caratteristiche)
+- [Requisiti](#requisiti)
+- [Installazione ed Esecuzione](#installazione-ed-esecuzione)
+- [Struttura del progetto](#struttura-del-progetto)
+- [Note](#note)
+---
+
 
 ## Caratteristiche
 
