@@ -1,6 +1,12 @@
 # Changelog 
 
 <details>
+  <summary>1.0.1</summary>
+
+  - Traduzioni
+</details>
+
+<details>
   <summary>1.0.0</summary>
 
   - Correzioni per stabilità
