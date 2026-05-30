@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -22,7 +23,10 @@ jobs:
           python-version: "3.14"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
 
       - name: Run application
         run: python main.py
@@ -35,6 +39,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Write result
         run: |
@@ -46,11 +52,18 @@ jobs:
             echo "Fallito" > .github/ci-results.txt
           fi
 
-      - name: Commit and push
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add .github/ci-results.txt
-          git diff --cached --quiet || git commit -m "Update CI results"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update CI results"
+          fi
+
+      - name: Push changes
+        run: |
+          BRANCH="${{ github.event.repository.default_branch }}"
+          git push origin HEAD:$BRANCH
