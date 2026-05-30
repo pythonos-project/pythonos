@@ -2,6 +2,8 @@
 
 PythonOS è un mini-sistema operativo sviluppato in Python con interfaccia grafica Tkinter.
 
+[![CI](https://github.com/pythonos-project/pythonos/actions/workflows/ci.yml/badge.svg)](https://github.com/pythonos-project/pythonos/actions/workflows/ci.yml)
+
 ## Caratteristiche
 
 - Interfaccia desktop stile mini-OS con barre e icone
