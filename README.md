@@ -6,8 +6,8 @@ PythonOS è un mini-sistema operativo sviluppato in Python con interfaccia grafi
 ![GitHub Repo stars](https://img.shields.io/github/stars/pythonos-project/pythonos)
 ![GitHub followers](https://img.shields.io/github/followers/pythonos-project)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Python version](https://img.shields.io/badge/versione-v1.0.0-green)](#requisisti)
-[![Python version](https://img.shields.io/badge/python-3.8_|_3.9_|_3.10_|_3.11_|_3.12_|_3.13_|_3.14-blue)](#requisisti)
+![version](https://img.shields.io/badge/versione-v1.0.0-green)
+[![Python version](https://img.shields.io/badge/python-3.8_|_3.9_|_3.10_|_3.11_|_3.12_|_3.13_|_3.14-blue)](#requisiti)
 
 ---
 
