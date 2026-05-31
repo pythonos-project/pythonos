@@ -98,6 +98,9 @@ python main.py
 - `main.py` - punto di ingresso dell'applicazione
 - `pythonos/gui.py` - logica dell'interfaccia grafica
 - `pythonos/os.py` - stato e comandi del mini-OS
+- `translations/` - Traduzioni
+- `clis/` - Le varie CLIs di PythonOS
+- `docs/` - Documentazione
 
 ---
 
