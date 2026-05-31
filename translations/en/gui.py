@@ -199,7 +199,7 @@ class PythonOSApp:
         messagebox.showinfo(
             "About PythonOS",
             "PythonOS is a mini-operating system built with Python and Tkinter.\n"
-            "Version: 1.0.1 Stable",
+            "Version: 1.0.2 Stable",
         )
 
     def _open_terminal_window(self):
