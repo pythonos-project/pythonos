@@ -1,6 +1,13 @@
 # Changelog 
 
 <details>
+  <summary>1.0.2</summary>
+
+  - Documentazione locale
+</details>
+
+
+<details>
   <summary>1.0.1</summary>
 
   - Traduzioni
