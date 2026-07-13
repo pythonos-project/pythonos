@@ -5,4 +5,4 @@
 # Se il tuo Python non lo include, installa il pacchetto appropriato per la tua distribuzione.
 
 # 2. pyos-gaps: per funzioni di sistema
-pyos-gaps >= 1.0.4
+pyos-gaps >= 1.0.8
