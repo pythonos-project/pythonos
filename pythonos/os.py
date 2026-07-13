@@ -1,6 +1,6 @@
 class OSState:
     def __init__(self):
-        self.user_name = "Utente"
+        self.user_name = "Guest"
         self.theme = "dark"
         self.lock_code = "1234"
         self.notes = ""
@@ -9,6 +9,7 @@ class OSState:
             "immagine.png",
             "appunti.md",
             "config.sys",
+            "pyos.sys"
         ]
 
     def run_command(self, command: str) -> str:
