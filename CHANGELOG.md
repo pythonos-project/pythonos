@@ -1,6 +1,14 @@
 # Changelog 
 
 <details>
+  <summary>1.0.3</summary>
+
+  - Rimozione traduzioni e CLIs
+  - Bugfix
+  - Salto gaps: 1.0.4+ -> 1.0.8+
+</details>
+
+<details>
   <summary>1.0.2</summary>
 
   - Documentazione locale
