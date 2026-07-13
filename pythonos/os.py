@@ -9,7 +9,7 @@ class OSState:
             "immagine.png",
             "appunti.md",
             "config.sys",
-            "pyos.sys"
+            "pyos.sys",
         ]
 
     def run_command(self, command: str) -> str:
